@@ -1,0 +1,18 @@
+# Enforce Unix-style LF line endings for all files
+* text=auto eol=lf
+
+# Windows batch files should keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files - don't touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.exe binary

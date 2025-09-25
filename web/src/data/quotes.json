@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "quote": "Tomorrow is the first day of the rest of your life.",
+    "author": "Paulo Coelho",
+    "book": "The Alchemist"
+  },
+  {
+    "id": 2,
+    "quote": "It is not our abilities that show what we truly are… it is our choices.",
+    "author": "J.K. Rowling",
+    "book": "Harry Potter and the Chamber of Secrets"
+  },
+  {
+    "id": 3,
+    "quote": "Not all those who wander are lost.",
+    "author": "J.R.R. Tolkien",
+    "book": "The Fellowship of the Ring"
+  }
+]

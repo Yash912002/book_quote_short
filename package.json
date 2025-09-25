@@ -1,0 +1,28 @@
+{
+	"name": "book_quote_short",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"prepare": "husky"
+	},
+	"lint-staged": {
+		"web/**/*.{js,ts,tsx}": [
+			"npm run lint:fix --prefix web",
+			"npm run format:fix --prefix web"
+		],
+		"server/**/*.{js,ts}": [
+			"npm run lint:fix --prefix server",
+			"npm run format:fix --prefix server"
+		]
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.5"
+	}
+}
