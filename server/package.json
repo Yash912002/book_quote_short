@@ -25,13 +25,11 @@
     "@types/cookie-parser": "^1.4.9",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
-    "@types/node": "^24.3.0",
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "3.6.2",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.5",
-    "typescript": "^5.9.2",
     "typescript-eslint": "^8.41.0"
   },
   "dependencies": {
@@ -39,6 +37,8 @@
     "cors": "^2.8.5",
     "dotenv-flow": "^4.1.0",
     "express": "^5.1.0",
-    "mongoose": "^8.18.2"
+    "mongoose": "^8.18.2",
+    "typescript": "^5.9.2",
+    "@types/node": "^24.5.2"
   }
 }
