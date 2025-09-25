@@ -1,7 +1,10 @@
 import { Quote } from "@/types/quote";
+import "dotenv/config";
+
+const API_BASE_URL = process.env.API_URL;
 
 export async function getQuotes(): Promise<Quote[]> {
-	const response = await fetch("http://localhost:5000/api/quotes", {
+	const response = await fetch(`${API_BASE_URL}/quotes`, {
 		cache: "no-store",
 	});
 
