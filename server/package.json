@@ -11,8 +11,7 @@
     "lint:fix": "eslint . --fix",
     "format:check": "prettier . --check",
     "format:fix": "prettier . --write",
-    "seed": "npx tsx src/seed.ts",
-    "prepare": "husky"
+    "seed": "npx tsx src/seed.ts"
   },
   "keywords": [],
   "author": "",
