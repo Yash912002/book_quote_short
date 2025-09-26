@@ -1,6 +1,3 @@
-// "use client";
-
-import Image from "next/image";
 import { Button } from "./UI/Button";
 
 type Props = {
@@ -18,26 +15,6 @@ export default function NavigationButtons({
 }: Props) {
   return (
     <>
-      {/* <button
-        onClick={onPrev}
-        disabled={disablePrev}
-        className="hidden md:flex absolute left-10 top-1/2 -translate-y-1/2 bg-black/40 text-white p-3 rounded-full disabled:opacity-40"
-      >
-        <svg
-          className="h-6 w-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M15 19l-7-7 7-7"
-          />
-        </svg>
-      </button> */}
-
       <Button
         onClick={onPrev}
         disabled={disablePrev}
